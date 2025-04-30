@@ -10,5 +10,5 @@ Compiling, Training and Evaluating:
 At that point, I designed a Neural Network model to train and test with the dataset.  I used TensorFlow and Keras to define dense layers, and then ran the model for 100 Epochs.  The two hidden dense layers used 80 and 30 units respectively. I then used the test data to calculate the loss and accuracy, followed by exporting the model to an HDF5 file. 
 ![image](https://github.com/user-attachments/assets/927fde3c-ebcd-42e7-b995-62dce82a0de8)
 Results
-The model did not perform very well, with an accuracy of only about 73% and a loss of over 0.5.  I attempted to add an additional dense layer to improve accuracy, but that did not help.  
+The model did not perform very well, with an accuracy of only about 73% and a loss of over 0.5.  I attempted to add additional layers, modify the number of units per layer and play around with the number of Epochs, all of which still wouldn't let me satisfy the 75% minimum requirement.   
 ![image](https://github.com/user-attachments/assets/6972dea6-8157-4fb7-a9ad-06df28ffff33)
